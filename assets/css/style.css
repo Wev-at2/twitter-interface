@@ -1,0 +1,15 @@
+@import url(./reset.css);
+@import url(./header.css);
+@import url(./main.css);
+@import url(./sections.css);
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 3rem auto 0;
+  display: grid;
+  grid-template-columns: auto 70%;
+}
